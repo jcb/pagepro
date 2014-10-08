@@ -1,0 +1,115 @@
+a:visited { color :#4C1B1B /*#416DFF*/; text-decoration : none; }
+a:link    { color :#B9121B /*#416DFF*/; text-decoration : none; font-weight : bold; }
+a:hover   { color : Red; text-decoration : underline; }
+a:active  { color : Red; text-decoration : underline; }
+
+/* everest strong: #145C8C */
+/* everest light : #B1D3DC */
+
+/*ul{ 	list-style-image: url('images/list-item.jpg');	}*/
+
+/* .corner1 { 
+   border: 0.1cm 0.1cm 0.1cm 0.1cm;
+   background: url('images/corner1.jpg') 100% 100% no-repeat #B1D3DC; 
+   width: 18.5em;
+}
+
+.corner2 { 
+   background: url('images/corner2.jpg') 0% 0% no-repeat; 
+} */
+
+/*palettes : http://www.code-couleur.com/palettes.html*/
+/*
+#B9121B	
+#4C1B1B	
+#F6E497	
+#FCFAE1	
+#BD8D46
+*/
+h3 {	
+   /*border-top: 2px solid #145C8C; */
+   border-top: 2px solid #B9121B;
+   /*border-bottom: 2px solid #145C8C;*/
+   border-bottom: 2px solid #B9121B;
+   /*background-color: #B1D3DC;*/
+   background-color:#FCFAE1 /*#F6E497*/;
+}
+
+#menu{list-style:none;padding:0}
+#menu li{padding:0px;margin:0px}
+#menu li a{
+  float:left;
+  text-align:center;
+  padding:1px 15px 2px 15px;
+  min-width:45px;
+  display:block;
+  /*background:#eeeeee;*/
+  background:#FCFAE1;
+  /*border-color:#bbb;*/
+  border-color:#B9121B;
+  border-width:1px;
+  margin-right:-1px;
+  border-style:solid
+  }
+/*#menu li a:hover{background-color:#cccccc}*/
+#menu li a:hover{background-color:#F6E497/*#BD8D46*/}
+
+/*#menu li a{
+	float:left;
+	text-align:center;
+	padding:1px 15px 2px 15px;
+	min-width:45px;
+	display:block;
+	background:#eeeeee;
+	border-color:#bbb;
+	border-width:1px;
+	margin-right:-1px;
+	border-style:solid
+}
+#menu li a:hover{background-color:#cccccc}*/
+
+#header {
+   padding:1em;
+   border:2px solid #b9121b/*#145C8C*/; /*bbb;*/
+   background-color:#FCFAE1/*#B1D3DC*/; /*#eeeeee;*/
+   margin-bottom:3em
+}
+#header h1 {
+   margin:0px;
+   padding:0px;
+   color:#000000;
+   text-align:center
+}
+
+td.textbf { 
+	  font-weight: bold; 
+	  width: 160px;
+}
+td.textbf2 { 
+	  font-weight: bold; 
+}
+td.rotate {
+	transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+        -ms-transform:rotate(-90deg);
+}
+/* classe */
+.code {
+	margin-left: 2em;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	font-family: monospace;
+        white-space: pre;
+}
+
+/* classe */
+.date {
+	font-size: medium;
+        font-weight: bold;
+        display: inline;
+}
+
+.red { color: #FF0000 }
+.green { color: #008000 }
