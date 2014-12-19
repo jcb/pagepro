@@ -111,5 +111,10 @@ td.rotate {
         display: inline;
 }
 
+.border-bottom {
+  border-bottom: 1px solid black;
+} 
+
 .red { color: #FF0000 }
 .green { color: #008000 }
+.blue { color: #0000FF }
